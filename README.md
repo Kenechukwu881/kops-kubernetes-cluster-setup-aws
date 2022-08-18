@@ -107,20 +107,22 @@ You Created. --> Save.
 	   kops validate cluster
 
 # 11) connect to the master node
+
     sh -i ~/.ssh/id_rsa ubuntu@ipAddress
     ssh -i ~/.ssh/id_rsa ubuntu@3.90.203.23
-# 11) To list nodes
+    
+# 12) To list nodes
 
 	  kubectl get nodes 
  
-# 12) To Delete Cluster
+# 13) To Delete Cluster
 
    kops delete cluster --name=${NAME} --state=${KOPS_STATE_STORE} --yes  
    
 ====================================================================================================
 
 
-13 # IF you want to SSH to Kubernetes Master or Nodes Created by KOPS. You can SSH From KOPS_Server
+14 # IF you want to SSH to Kubernetes Master or Nodes Created by KOPS. You can SSH From KOPS_Server
 
 sh -i ~/.ssh/id_rsa ubuntu@ipAddress
 ssh -i ~/.ssh/id_rsa ubuntu@3.90.203.23
