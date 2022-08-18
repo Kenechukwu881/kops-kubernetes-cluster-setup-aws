@@ -54,7 +54,7 @@
  sudo mv ./kubectl /usr/local/bin/kubectl
  aws s3 mb s3://nubonglegah.k8.local
  aws s3 ls
- ```sh
+ ```
 
 # 5) Create an IAM role from AWS Console or CLI with below Policies.
 
